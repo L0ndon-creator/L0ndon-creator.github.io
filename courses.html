@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Заказ курсовых работ{% endblock %}
+{% block content %}
+<h2>
+    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 10v8a2 2 0 01-2 2H4a2 2 0 01-2-2v-8"></path>
+        <rect x="2" y="4" width="20" height="6" rx="2"></rect>
+        <line x1="16" y1="4" x2="16" y2="2"></line>
+        <line x1="8" y1="4" x2="8" y2="2"></line>
+    </svg>
+    Помощь с курсовыми работами
+</h2>
+
+<div class="card" style="background: linear-gradient(135deg, #ffffff, #f0fdfd);">
+    <p style="font-size:1.1rem;">
+        Предлагаем качественные курсовые работы по водоснабжению, водоотведению и смежным дисциплинам.
+    </p>
+    <ul class="styled" style="margin-top:1rem;">
+        <li>Водоснабжение и водоотведение (ВиВ)</li>
+        <li>Гидравлика и гидрология</li>
+        <li>Санитарно-техническое оборудование зданий</li>
+        <li>Очистка сточных вод</li>
+        <li>Инженерные сети и сооружения</li>
+    </ul>
+    <p style="margin-top:1.2rem;">
+        Выполняем расчёты, чертежи, пояснительные записки. Соблюдаем требования ГОСТ и методичек.
+    </p>
+</div>
+
+<div style="margin-top:2rem; text-align: center;">
+    <p style="font-size:1.2rem; font-weight: 600; color: var(--deep-teal);">
+        Для заказа пишите на почту:
+    </p>
+    <a href="mailto:antonine122444@gmail.com"
+       style="display: inline-block; background: var(--coral); color: white; padding: 0.9rem 2rem;
+              border-radius: 30px; font-weight: bold; text-decoration: none; font-size: 1.1rem;
+              border: none; margin-top: 0.5rem; transition: 0.2s; box-shadow: 0 4px 10px rgba(255,127,80,0.4);">
+        antonine122444@gmail.com
+    </a>
+    <p style="margin-top: 1.5rem; opacity: 0.8;">
+        Сроки и стоимость обсуждаются. Индивидуальный подход к каждому студенту.
+    </p>
+</div>
+
+<!-- Кнопки Telegram и YouTube -->
+<div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 2.5rem; flex-wrap: wrap;">
+    <a href="https://t.me/yep_news" target="_blank"
+       style="display: inline-flex; align-items: center; gap: 0.5rem; background: #0088cc; color: white; padding: 0.8rem 1.8rem;
+              border-radius: 30px; font-weight: bold; text-decoration: none; font-size: 1rem;
+              transition: 0.2s; box-shadow: 0 4px 12px rgba(0,136,204,0.4);">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+            <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.89 8.22l-1.8 8.49c-.13.6-.49.75-.99.46l-2.74-2.02-1.32 1.27c-.15.14-.27.27-.56.27-.38 0-.31-.14-.43-.5l-.99-3.24-2.62-.81c-.57-.18-.58-.56.12-.83l10.23-3.95c.46-.18.87.11.7.86z"/>
+        </svg>
+        Telegram
+    </a>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+       style="display: inline-flex; align-items: center; gap: 0.5rem; background: #FF0000; color: white; padding: 0.8rem 1.8rem;
+              border-radius: 30px; font-weight: bold; text-decoration: none; font-size: 1rem;
+              transition: 0.2s; box-shadow: 0 4px 12px rgba(255,0,0,0.4);">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+            <path d="M23.5 6.2c-.3-1.1-1.1-1.9-2.2-2.2C19.3 3.4 12 3.4 12 3.4s-7.3 0-9.3.6C1.6 4.3.8 5.1.5 6.2.1 7.8 0 12 0 12s.1 4.2.5 5.8c.3 1.1 1.1 1.9 2.2 2.2 2 .6 9.3.6 9.3.6s7.3 0 9.3-.6c1.1-.3 1.9-1.1 2.2-2.2.4-1.6.5-5.8.5-5.8s-.1-4.2-.5-5.8zm-13.8 9.4V8.4l6.2 3.6-6.2 3.6z"/>
+        </svg>
+        YouTube
+    </a>
+</div>
+{% endblock %}
